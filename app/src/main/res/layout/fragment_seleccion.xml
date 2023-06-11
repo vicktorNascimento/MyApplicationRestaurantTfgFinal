@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/searchBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search here..." />
+
+    <Button
+        android:id="@+id/buttonPagar"
+        android:layout_width="522dp"
+        android:layout_height="62dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:text="Pagar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RcPlatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>
+    <!-- android:background="@drawable/searchview" -->

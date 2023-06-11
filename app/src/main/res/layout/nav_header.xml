@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:gravity="bottom"
+    android:padding="0dp"
+    android:background="@drawable/background_color"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="69dp"
+        android:src="@drawable/menu__1_" />
+
+
+</LinearLayout>
